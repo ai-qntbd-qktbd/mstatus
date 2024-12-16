@@ -1,0 +1,67 @@
+{
+  "sites": {
+    "metive": {
+      "name": "Metive",
+      "endpoints": {
+        "api": {
+          "name": "API",
+          "logs": [
+            {
+              "t": 1734356204215,
+              "dur": 1023.549888,
+              "dns": 0,
+              "tcp": 0,
+              "ttfb": 135.49647200000004,
+              "dll": 7.196423999999979
+            }
+          ]
+        },
+        "client": {
+          "name": "Client",
+          "link": "https://www.metive.app/",
+          "logs": [
+            {
+              "t": 1734356205264,
+              "dur": 1186.916628,
+              "dns": 0,
+              "tcp": 0,
+              "ttfb": 135.58357999999998,
+              "dll": 4.511050000000068
+            }
+          ]
+        },
+        "editor": {
+          "name": "Editor",
+          "link": "https://www.metive.app/editor/",
+          "logs": [
+            {
+              "t": 1734356206453,
+              "dur": 138.55161299999963,
+              "dns": 0,
+              "tcp": 0,
+              "ttfb": 136.84574900000007,
+              "dll": 1.37051799999972
+            }
+          ]
+        }
+      }
+    }
+  },
+  "config": {
+    "interval": 5,
+    "nDataPoints": 90,
+    "responseTimeGood": 300,
+    "responseTimeWarning": 600
+  },
+  "ui": [
+    [
+      "metive",
+      [
+        "api",
+        "client",
+        "editor"
+      ]
+    ]
+  ],
+  "lastPulse": 1734356206593
+}
