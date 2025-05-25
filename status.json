@@ -7,14 +7,6 @@
           "name": "API",
           "logs": [
             {
-              "t": 1747761621331,
-              "dur": 1194.737889,
-              "dns": 0,
-              "tcp": 0,
-              "ttfb": 183.9348490000002,
-              "dll": 7.378497999999809
-            },
-            {
               "t": 1747762807261,
               "dur": 1256.431048,
               "dns": 0,
@@ -1603,6 +1595,14 @@
               "tcp": 0,
               "ttfb": 182.48655299999996,
               "dll": 7.229166999999961
+            },
+            {
+              "t": 1748150500773,
+              "dur": 1057.3451220000002,
+              "dns": 0,
+              "tcp": 0,
+              "ttfb": 133.56536700000015,
+              "dll": 7.260058999999956
             }
           ]
         },
@@ -1610,12 +1610,6 @@
           "name": "Client",
           "link": "https://www.metive.app/",
           "logs": [
-            {
-              "t": 1747761622553,
-              "err": "TimeoutError: The operation was aborted due to timeout",
-              "dur": 4999.889163,
-              "ttfb": 4999.889163
-            },
             {
               "t": 1747762808544,
               "err": "TimeoutError: The operation was aborted due to timeout",
@@ -3045,6 +3039,12 @@
               "err": "TimeoutError: The operation was aborted due to timeout",
               "dur": 5000.357661,
               "ttfb": 5000.357661
+            },
+            {
+              "t": 1748150501898,
+              "err": "TimeoutError: The operation was aborted due to timeout",
+              "dur": 5000.734248,
+              "ttfb": 5000.734248
             }
           ]
         },
@@ -3052,14 +3052,6 @@
           "name": "Editor",
           "link": "https://www.metive.app/editor/",
           "logs": [
-            {
-              "t": 1747761627554,
-              "dur": 942.781403,
-              "dns": 0,
-              "tcp": 0,
-              "ttfb": 186.69133500000044,
-              "dll": 4.063688000000184
-            },
             {
               "t": 1747762813544,
               "dur": 827.8677090000001,
@@ -4649,6 +4641,14 @@
               "tcp": 0,
               "ttfb": 178.1046150000002,
               "dll": 10.519860999999764
+            },
+            {
+              "t": 1748150506899,
+              "dur": 546.2038549999997,
+              "dns": 0,
+              "tcp": 0,
+              "ttfb": 132.99356499999976,
+              "dll": 11.482719999999972
             }
           ]
         }
@@ -4671,5 +4671,5 @@
       ]
     ]
   ],
-  "lastPulse": 1748148333355
+  "lastPulse": 1748150507447
 }
