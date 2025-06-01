@@ -7,14 +7,6 @@
           "name": "API",
           "logs": [
             {
-              "t": 1748373486646,
-              "dur": 1324.016287,
-              "dns": 0,
-              "tcp": 0,
-              "ttfb": 162.30315399999995,
-              "dll": 7.341501999999991
-            },
-            {
               "t": 1748374552940,
               "dur": 1134.325232,
               "dns": 0,
@@ -1597,6 +1589,14 @@
               "tcp": 0,
               "ttfb": 162.815648,
               "dll": 7.341188000000102
+            },
+            {
+              "t": 1748763443196,
+              "dur": 815.207848,
+              "dns": 0,
+              "tcp": 0,
+              "ttfb": 136.109963,
+              "dll": 8.271136999999953
             }
           ]
         },
@@ -1604,12 +1604,6 @@
           "name": "Client",
           "link": "https://www.metive.app/",
           "logs": [
-            {
-              "t": 1748373487998,
-              "err": "TimeoutError: The operation was aborted due to timeout",
-              "dur": 5000.607579,
-              "ttfb": 5000.607579
-            },
             {
               "t": 1748374554104,
               "err": "TimeoutError: The operation was aborted due to timeout",
@@ -3045,6 +3039,12 @@
               "err": "TimeoutError: The operation was aborted due to timeout",
               "dur": 4999.73467,
               "ttfb": 4999.73467
+            },
+            {
+              "t": 1748763444088,
+              "err": "TimeoutError: The operation was aborted due to timeout",
+              "dur": 5000.379263,
+              "ttfb": 5000.379263
             }
           ]
         },
@@ -3052,14 +3052,6 @@
           "name": "Editor",
           "link": "https://www.metive.app/editor/",
           "logs": [
-            {
-              "t": 1748373492999,
-              "dur": 486.1797139999999,
-              "dns": 0,
-              "tcp": 0,
-              "ttfb": 160.845241,
-              "dll": 4.2208959999998115
-            },
             {
               "t": 1748374559105,
               "dur": 481.7233640000004,
@@ -4651,6 +4643,14 @@
               "tcp": 0,
               "ttfb": 159.76699699999972,
               "dll": 4.134640000000218
+            },
+            {
+              "t": 1748763449089,
+              "dur": 671.0168739999999,
+              "dns": 0,
+              "tcp": 0,
+              "ttfb": 136.84659899999951,
+              "dll": 12.191533000000163
             }
           ]
         }
@@ -4673,5 +4673,5 @@
       ]
     ]
   ],
-  "lastPulse": 1748762528733
+  "lastPulse": 1748763449762
 }
