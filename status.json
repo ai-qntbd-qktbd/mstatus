@@ -7,14 +7,6 @@
           "name": "API",
           "logs": [
             {
-              "t": 1756736491975,
-              "dur": 1452.979947,
-              "dns": 0,
-              "tcp": 0,
-              "ttfb": 192.66560299999992,
-              "dll": 7.192561000000069
-            },
-            {
               "t": 1756737620222,
               "err": "TimeoutError: The operation was aborted due to timeout",
               "dur": 5003.76877,
@@ -1601,6 +1593,12 @@
               "tcp": 0,
               "ttfb": 196.39028999999982,
               "dll": 5.025963000000047
+            },
+            {
+              "t": 1757114371330,
+              "err": "TypeError: fetch failed",
+              "dur": 551.266341,
+              "ttfb": 551.266341
             }
           ]
         },
@@ -1608,14 +1606,6 @@
           "name": "Client",
           "link": "https://www.metive.app/",
           "logs": [
-            {
-              "t": 1756736493452,
-              "dur": 2144.940477,
-              "dns": 0,
-              "tcp": 0,
-              "ttfb": 196.80578300000025,
-              "dll": 4.767961000000014
-            },
             {
               "t": 1756737625227,
               "err": "TimeoutError: The operation was aborted due to timeout",
@@ -3131,6 +3121,12 @@
               "err": "TypeError: fetch failed",
               "dur": 1002.639453,
               "ttfb": 1002.639453
+            },
+            {
+              "t": 1757114371883,
+              "err": "TypeError: fetch failed",
+              "dur": 396.279123,
+              "ttfb": 396.279123
             }
           ]
         },
@@ -3138,14 +3134,6 @@
           "name": "Editor",
           "link": "https://www.metive.app/editor/",
           "logs": [
-            {
-              "t": 1756736495598,
-              "dur": 191.92126999999982,
-              "dns": 0,
-              "tcp": 0,
-              "ttfb": 190.08189800000036,
-              "dll": 1.439998999999716
-            },
             {
               "t": 1756737630227,
               "dur": 862.7122280000003,
@@ -4681,6 +4669,12 @@
               "err": "TypeError: fetch failed",
               "dur": 754.3362359999996,
               "ttfb": 754.3362359999996
+            },
+            {
+              "t": 1757114372280,
+              "err": "TypeError: fetch failed",
+              "dur": 270.271343,
+              "ttfb": 270.271343
             }
           ]
         }
@@ -4703,5 +4697,5 @@
       ]
     ]
   ],
-  "lastPulse": 1757111869911
+  "lastPulse": 1757114372550
 }
