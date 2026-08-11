@@ -7,12 +7,6 @@
           "name": "API",
           "logs": [
             {
-              "t": 1785943297094,
-              "err": "TimeoutError: The operation was aborted due to timeout",
-              "dur": 5001.428726,
-              "ttfb": 5001.428726
-            },
-            {
               "t": 1785944190432,
               "err": "TimeoutError: The operation was aborted due to timeout",
               "dur": 5001.910558,
@@ -1571,6 +1565,14 @@
               "tcp": 0,
               "ttfb": 162.81234999999992,
               "dll": 6.987246000000141
+            },
+            {
+              "t": 1786488535572,
+              "dur": 1216.665043,
+              "dns": 0,
+              "tcp": 0,
+              "ttfb": 151.16161699999998,
+              "dll": 7.864788999999973
             }
           ]
         },
@@ -1578,12 +1580,6 @@
           "name": "Client",
           "link": "https://www.metive.app/",
           "logs": [
-            {
-              "t": 1785943302097,
-              "err": "TimeoutError: The operation was aborted due to timeout",
-              "dur": 5000.426610999999,
-              "ttfb": 5000.426610999999
-            },
             {
               "t": 1785944195435,
               "err": "TimeoutError: The operation was aborted due to timeout",
@@ -3137,6 +3133,14 @@
               "tcp": 0,
               "ttfb": 164.49231199999986,
               "dll": 4.518032999999832
+            },
+            {
+              "t": 1786488536812,
+              "dur": 1521.4678860000001,
+              "dns": 0,
+              "tcp": 0,
+              "ttfb": 147.5372299999999,
+              "dll": 5.862042000000201
             }
           ]
         },
@@ -3144,12 +3148,6 @@
           "name": "Editor",
           "link": "https://www.metive.app/editor/",
           "logs": [
-            {
-              "t": 1785943307097,
-              "err": "TimeoutError: The operation was aborted due to timeout",
-              "dur": 4999.492309000001,
-              "ttfb": 4999.492309000001
-            },
             {
               "t": 1785944200436,
               "err": "TimeoutError: The operation was aborted due to timeout",
@@ -4711,6 +4709,14 @@
               "tcp": 0,
               "ttfb": 158.69414499999993,
               "dll": 1.7226780000000872
+            },
+            {
+              "t": 1786488538335,
+              "dur": 141.44162499999993,
+              "dns": 0,
+              "tcp": 0,
+              "ttfb": 139.52949799999988,
+              "dll": 1.6786999999999352
             }
           ]
         }
@@ -4733,5 +4739,5 @@
       ]
     ]
   ],
-  "lastPulse": 1786486228410
+  "lastPulse": 1786488538478
 }
